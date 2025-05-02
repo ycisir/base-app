@@ -24,12 +24,15 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-#### 4] Apply migrations (optional)
+#### 4] Create .env file at /django-app/webapp/.env and paste these two lines
+
 ```bash
-python manage.py migrate
+ENVIRONMENT=DEVELOPMENT
+SECRET_KEY=django-insecure-yxjo-g8^%v75yj(+=p#9n*jy9)m+pizp)w)n&+1j&q%-+h3j(t
 ```
 
-#### 5] Run the development server
+#### 5] Migrate and run the development server
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
