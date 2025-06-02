@@ -24,6 +24,6 @@ my django webapp structure
   ```bash
   ENVIRONMENT=DEVELOPMENT
   SECRET_KEY=
-```
+  ```
 
 - run the dev server
