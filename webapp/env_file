@@ -1,7 +1,0 @@
-ENVIRONMENT=DEVELOPMENT
-SECRET_KEY=django-insecure-yxjo-g8^%v75yj(+=p#9n*jy9)m+pizp)w)n&+1j&q%-+h3j(t
-DB_NAME=app_db
-DB_USER=user
-DB_HOST=127.0.0.1
-DB_PASSWORD=user_password
-DB_PORT=3306
