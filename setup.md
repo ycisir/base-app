@@ -1,3 +1,6 @@
+# base app
+my django webapp structure
+
 #### 1] Clone the Repository
 ```bash
 git clone https://github.com/ycisir/base-app.git
@@ -19,12 +22,14 @@ django-admin startproject webapp . --template=/home/yasir/Documents/django/base-
 pip freeze > requirements.txt
 ```
 
-#### 4] Generate secret key and create .env file at /project-name/webapp/.env and paste these two lines
+#### 4] Generate secret key and create .env file at /project-name/webapp/.env
 
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
 
-paste generated secret key below in .env
+- Paste generated secret key in .env
+```bash
 ENVIRONMENT=DEVELOPMENT
 SECRET_KEY=paste here
 ```
