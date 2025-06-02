@@ -2,9 +2,9 @@
 my django webapp structure
 
 - Clone the Repository
-```bash
-git clone https://github.com/ycisir/base-app.git
-```
+  ```bash
+  git clone https://github.com/ycisir/base-app.git
+  ```
 
 - Create your project folder activate a venv
 ```bash
