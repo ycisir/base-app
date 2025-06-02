@@ -1,5 +1,4 @@
 # base app
-django webapp structure
 
 - clone the repo
 - create project folder and activate venv
