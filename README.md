@@ -1,40 +1,28 @@
 # base app
 my django webapp structure
 
-- #### Clone the Repository
-  ```bash
-  git clone https://github.com/ycisir/base-app.git
-  ```
+- clone the repo
 
-- ####Create your project folder activate a venv
+- create project folder and activate venv
+
+- install these
   ```bash
-  mkdir new_project
-  cd new_project
-  python3 -m venv env
-  source env/bin/activate
-  pip install --upgrade pip
   pip install django python-decouple
   ```
 
-- #### Create django project using template
-  ```bash
-  django-admin startproject webapp . --template=/home/yasir/Documents/django/base-app
-  pip freeze > requirements.txt
-  ```
+- create django project using template
+```bash
+django-admin startproject webapp . --template=/home/yasir/Documents/django/base-app
+```
 
-- #### Generate secret key and create .env file at /project-name/webapp/.env
-  ```bash
-  python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
-  ```
+- Generate secret key
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
+-Paste these in /base-app/webapp/.env
+```bash
+ENVIRONMENT=DEVELOPMENT
+SECRET_KEY=
+```
 
-- #### Paste the generated secret key in .env
-  ```bash
-  ENVIRONMENT=DEVELOPMENT
-  SECRET_KEY=
-  ```
-
-- #### Migrate and run the development server
-  ```bash
-  python manage.py migrate
-  python manage.py runserver
-  ```
+- run the dev server
