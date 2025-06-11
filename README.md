@@ -16,4 +16,4 @@
    ENVIRONMENT=DEVELOPMENT
    SECRET_KEY=
    ```
-7. run the dev server`
+7. run the dev server
